@@ -43,6 +43,9 @@ function playGame(){
     
     
         }
+        else if(humanChoice===computerChoice){
+            console.log('draw!');
+        }
         else{
             computerScore++;
 
